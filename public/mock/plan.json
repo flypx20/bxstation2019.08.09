@@ -1,0 +1,31 @@
+{
+  "ret": true,
+  "data": {
+    "planList": [{
+      "id": 1,
+      "planStatus": true,
+      "planName": "健康方案",
+      "planImg": "http://192.168.50.40:8080/imgs/plans/plan_img01.png"
+    }, {
+      "id": 2,
+      "planStatus": true,
+      "planName": "出行方案",
+      "planImg": "http://192.168.50.40:8080/imgs/plans/plan_img02.png"
+    }, {
+      "id": 3,
+      "planStatus": false,
+      "planName": "运动方案",
+      "planImg": "http://192.168.50.40:8080/imgs/plans/plan_img03.png"
+    }, {
+      "id": 4,
+      "planStatus": true,
+      "planName": "数码方案",
+      "planImg": "http://192.168.50.40:8080/imgs/plans/plan_img04.png"
+    }, {
+      "id": 5,
+      "planStatus": false,
+      "planName": "家庭方案",
+      "planImg": "http://192.168.50.40:8080/imgs/plans/plan_img05.png"
+    }]
+  }
+}

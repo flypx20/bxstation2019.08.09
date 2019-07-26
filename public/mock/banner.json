@@ -1,0 +1,31 @@
+{
+  "ret": true,
+  "data": {
+    "bannerList": [{
+      "id": 1,
+      "status": true,
+      "bannerTitle": "保险产品111231",
+      "bannerImg": "http://192.168.50.40:8080/imgs/banners/index_banner01.jpg"
+    }, {
+      "id": 2,
+      "status": true,
+      "bannerTitle": "保险方案23134",
+      "bannerImg": "http://192.168.50.40:8080/imgs/banners/index_banner01.jpg"
+    }, {
+      "id": 3,
+      "status": false,
+      "bannerTitle": "热卖产品2314324",
+      "bannerImg": "http://192.168.50.40:8080/imgs/banners/index_banner01.jpg"
+    }, {
+      "id": 4,
+      "status": true,
+      "bannerTitle": "推荐活动31141",
+      "bannerImg": "http://192.168.50.40:8080/imgs/banners/index_banner01.jpg"
+    }, {
+      "id": 5,
+      "status": false,
+      "bannerTitle": "保险产品31141",
+      "bannerImg": "http://192.168.50.40:8080/imgs/banners/index_banner01.jpg"
+    }]
+  }
+}
