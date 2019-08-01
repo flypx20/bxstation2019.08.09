@@ -45,7 +45,7 @@
           <van-notice-bar mode="link"
                           color="#626262"
                           background="#fff"
-                          text="通知内容通知内容通知内容通知内容通知内容通知内容通知内容通知内容通知内容通知内容通知内容通知内容通知内容">
+                          text="复星健康 光大永明 友邦保险 平安保险 平安福 嘉多保 康乐一生 康乐一生2019">
           </van-notice-bar>
         </div>
         <div class="point-tags">

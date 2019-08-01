@@ -8,7 +8,7 @@
       "feedAuthor": "徐老师",
       "feedPublic": "精算盘管家",
       "feedTime": "2019-06-10",
-      "feedRate": 4.5,
+      "feedRate": 4.0,
       "feedImg": "http://192.168.50.40:8080/imgs/feeds/point_img01.jpg",
       "feedLink": "https://mp.weixin.qq.com/s/svwz6IGmnFC32cK0uOtg9Q",
       "feedRelated": [],
@@ -16,31 +16,31 @@
         "tagID": 1,
         "tagName": "公司规模",
         "tagIcon": "\ue623",
-        "tagRate": "4.5",
+        "tagRate": 4,
         "tagDesc": ""
       }, {
         "tagID": 2,
         "tagName": "基本保障",
         "tagIcon": "\ue662",
-        "tagRate": "4",
+        "tagRate": 4,
         "tagDesc": ""
       }, {
         "tagID": 3,
         "tagName": "追加保障",
         "tagIcon": "\ue611",
-        "tagRate": "3.5",
+        "tagRate": 3.5,
         "tagDesc": ""
       }, {
         "tagID": 4,
         "tagName": "重疾保障",
         "tagIcon": "\ue60f",
-        "tagRate": "3",
+        "tagRate": 3,
         "tagDesc": ""
       }, {
         "tagID": 5,
         "tagName": "中症保障",
         "tagIcon": "\ue60c",
-        "tagRate": "3.5",
+        "tagRate": 3.5,
         "tagDesc": ""
       }],
       "feedPoints": [],
@@ -63,37 +63,37 @@
         "tagID": 1,
         "tagName": "公司规模",
         "tagIcon": "\ue623",
-        "tagRate": "4.5",
+        "tagRate": 4.5,
         "tagDesc": ""
       }, {
         "tagID": 2,
         "tagName": "基本保障",
         "tagIcon": "\ue662",
-        "tagRate": "3.5",
+        "tagRate": 3.5,
         "tagDesc": ""
       }, {
         "tagID": 3,
         "tagName": "追加保障",
         "tagIcon": "\ue611",
-        "tagRate": "4.5",
+        "tagRate": 4.5,
         "tagDesc": ""
       }, {
         "tagID": 4,
         "tagName": "重疾保障",
         "tagIcon": "\ue60f",
-        "tagRate": "3.5",
+        "tagRate": 3.5,
         "tagDesc": ""
       }, {
         "tagID": 5,
         "tagName": "中症保障",
         "tagIcon": "\ue60c",
-        "tagRate": "4",
+        "tagRate": 4,
         "tagDesc": ""
       }, {
         "tagID": 6,
         "tagName": "轻症豁免",
         "tagIcon": "\ue687",
-        "tagRate": "4.5",
+        "tagRate": 4.5,
         "tagDesc": ""
       }],
       "feedPoints": [],
@@ -116,25 +116,107 @@
         "tagID": 1,
         "tagName": "公司规模",
         "tagIcon": "\ue623",
-        "tagRate": "4.5",
+        "tagRate": 4.5,
         "tagDesc": ""
       }, {
         "tagID": 2,
         "tagName": "基本保障",
         "tagIcon": "\ue662",
-        "tagRate": "3.5",
+        "tagRate": 3.5,
         "tagDesc": ""
       }, {
         "tagID": 3,
         "tagName": "重症监护",
         "tagIcon": "\ue60f",
-        "tagRate": "4.5",
+        "tagRate": 4.5,
         "tagDesc": ""
       }, {
         "tagID": 4,
         "tagName": "轻症保障",
         "tagIcon": "\ue61a",
-        "tagRate": "4",
+        "tagRate": 4,
+        "tagDesc": ""
+      }],
+      "feedPoints": [],
+      "feedCompare": [],
+      "feedReads": 2131,
+      "feedThumbs": 2312,
+      "feedCollects": 234
+    }, {
+      "feedID": 4,
+      "productName": "备哆分1号",
+      "feedTitle": "【复星联合】备多分1号上市了",
+      "feedAuthor": "聚保儿",
+      "feedPublic": "聚保儿",
+      "feedTime": "2019-04-18",
+      "feedRate": 3.5,
+      "feedImg": "http://192.168.50.40:8080/imgs/feeds/point_img02.jpg",
+      "feedLink": "https://mp.weixin.qq.com/s/dr1uUfjqRuacXZuGau1ovw",
+      "feedRelated": [],
+      "feedTags": [{
+        "tagID": 1,
+        "tagName": "公司规模",
+        "tagIcon": "\ue623",
+        "tagRate": 4.5,
+        "tagDesc": ""
+      }, {
+        "tagID": 2,
+        "tagName": "基本保障",
+        "tagIcon": "\ue662",
+        "tagRate": 3.5,
+        "tagDesc": ""
+      }, {
+        "tagID": 3,
+        "tagName": "追加保障",
+        "tagIcon": "\ue611",
+        "tagRate": 4.5,
+        "tagDesc": ""
+      }, {
+        "tagID": 4,
+        "tagName": "重疾保障",
+        "tagIcon": "\ue60f",
+        "tagRate": 3.5,
+        "tagDesc": ""
+      }, {
+        "tagID": 5,
+        "tagName": "中症保障",
+        "tagIcon": "\ue60c",
+        "tagRate": 4,
+        "tagDesc": ""
+      }, {
+        "tagID": 6,
+        "tagName": "轻症豁免",
+        "tagIcon": "\ue687",
+        "tagRate": 4.5,
+        "tagDesc": ""
+      }],
+      "feedPoints": [],
+      "feedCompare": [],
+      "feedReads": 2131,
+      "feedThumbs": 2312,
+      "feedCollects": 234
+    }, {
+      "feedID": 5,
+      "productName": "康乐一生2019",
+      "feedTitle": "【复星联合】备多分1号上市了",
+      "feedAuthor": "深蓝保",
+      "feedPublic": "深蓝保",
+      "feedTime": "2019-05-17",
+      "feedRate": 4,
+      "feedImg": "http://192.168.50.40:8080/imgs/feeds/point_img03.jpg",
+      "feedLink": "https://mp.weixin.qq.com/s/_jKjOsvc06FZej4yow6rAA",
+      "feedRelated": [],
+      "feedTags": [{
+        "tagID": 1,
+        "tagName": "公司规模",
+        "tagIcon": "\ue623",
+        "tagRate": 4.5,
+        "tagDesc": ""
+      }, {
+        "tagID": 2,
+        "tagName": "基本保障",
+        "tagIcon": "\ue662",
+        "tagRate": 3.5,
         "tagDesc": ""
       }],
       "feedPoints": [],

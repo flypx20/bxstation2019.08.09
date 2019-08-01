@@ -7,6 +7,7 @@
         <div class="product-img">
           <img :src="item.productImg"
                alt />
+          <span :style="{background:item.productSelftags[0].tagColor }">{{item.productSelftags[0].tagName}}</span>
         </div>
         <div class="product-opt">
           <div class="info">
@@ -58,7 +59,38 @@ export default {
   name: "ProductsProdlist",
   props: {
     list: Array
-  }
+  },
+  data() {
+    return {
+      tagList: [
+        {
+          tagID: 1,
+          tagStatus: true,
+          tagName: "运动",
+          tagColor: "#62e42b"
+        },
+        {
+          tagID: 2,
+          tagStatus: false,
+          tagName: "重疾",
+          tagColor: "#e42b2b"
+        },
+        {
+          tagID: 3,
+          tagStatus: false,
+          tagName: "同款",
+          tagColor: "green"
+        },
+        {
+          tagID: 4,
+          tagStatus: false,
+          tagName: "推荐",
+          tagColor: "blue"
+        }
+      ]
+    };
+  },
+  computed: {}
 };
 </script>
 
@@ -82,9 +114,22 @@ export default {
         width 2.4rem
         height 1.8rem
         margin-right 0.3rem
+        position relative
         img
           width 2.4rem
           height 1.8rem
+        span
+          width 0.8rem
+          height 0.4rem
+          position absolute
+          top 0
+          left 0
+          background blue
+          line-height 0.4rem
+          display block
+          font-size 0.2rem
+          text-align center
+          color #fff
       .product-opt
         float left
         display flex

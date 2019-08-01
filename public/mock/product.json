@@ -13,24 +13,34 @@
       "productImg": "http://192.168.50.40:8080/imgs/products/product_img01.png",
       "productChannel": [{
         "channelID": 1,
+        "channelSelect": 0,
         "channelName": "齐欣云服",
         "channelBrokerage": "30",
-        "channelStatus": false
+        "channelStatus": "代理中"
       }, {
         "channelID": 2,
+        "channelSelect": 0,
         "channelName": "i云保",
         "channelBrokerage": "25",
-        "channelStatus": false
+        "channelStatus": "代理中"
       }, {
         "channelID": 3,
+        "channelSelect": 1,
         "channelName": "牛保",
         "channelBrokerage": "23",
-        "channelStatus": false
+        "channelStatus": "未代理"
       }, {
         "channelID": 4,
+        "channelSelect": 0,
         "channelName": "易云保",
         "channelBrokerage": "15",
-        "channelStatus": true
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 5,
+        "channelSelect": 0,
+        "channelName": "自定义",
+        "channelBrokerage": "",
+        "channelStatus": ""
       }],
       "relatedCompany": [],
       "relatedProduct": [],
@@ -45,8 +55,25 @@
         "tagIcon": ""
       }],
       "productSelftags": [{
-        "tagName": "",
-        "tagColor": ""
+        "tagID": 1,
+        "tagStatus": true,
+        "tagName": "运动",
+        "tagColor": "#62e42b"
+      }, {
+        "tagID": 2,
+        "tagStatus": false,
+        "tagName": "重疾",
+        "tagColor": "#e42b2b"
+      }, {
+        "tagID": 3,
+        "tagStatus": false,
+        "tagName": "同款",
+        "tagColor": "green"
+      }, {
+        "tagID": 4,
+        "tagStatus": false,
+        "tagName": "推荐",
+        "tagColor": "blue"
       }]
     }, {
       "id": 2,
@@ -59,21 +86,35 @@
       "productDesc": "疾病用药都不限，快速就医通道",
       "productImg": "http://192.168.50.40:8080/imgs/products/product_img02.png",
       "productChannel": [{
-        "channelName": "齐欣云服",
-        "channelBrokerage": "27",
-        "channelStatus": false
-      }, {
-        "channelName": "i云保",
-        "channelBrokerage": "25",
-        "channelStatus": false
-      }, {
-        "channelName": "牛保",
-        "channelBrokerage": "23",
-        "channelStatus": false
-      }, {
+        "channelID": 1,
+        "channelSelect": 1,
         "channelName": "齐欣云服",
         "channelBrokerage": "30",
-        "channelStatus": true
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 2,
+        "channelSelect": 0,
+        "channelName": "i云保",
+        "channelBrokerage": "25",
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 3,
+        "channelSelect": 0,
+        "channelName": "牛保",
+        "channelBrokerage": "23",
+        "channelStatus": "未代理"
+      }, {
+        "channelID": 4,
+        "channelSelect": 0,
+        "channelName": "易云保",
+        "channelBrokerage": "15",
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 5,
+        "channelSelect": 0,
+        "channelName": "自定义",
+        "channelBrokerage": "",
+        "channelStatus": ""
       }],
       "relatedCompany": [],
       "relatedProduct": [],
@@ -88,8 +129,25 @@
         "tagIcon": ""
       }],
       "productSelftags": [{
-        "tagName": "",
-        "tagColor": ""
+        "tagID": 1,
+        "tagStatus": true,
+        "tagName": "运动",
+        "tagColor": "#62e42b"
+      }, {
+        "tagID": 2,
+        "tagStatus": false,
+        "tagName": "重疾",
+        "tagColor": "#e42b2b"
+      }, {
+        "tagID": 3,
+        "tagStatus": false,
+        "tagName": "同款",
+        "tagColor": "green"
+      }, {
+        "tagID": 4,
+        "tagStatus": false,
+        "tagName": "推荐",
+        "tagColor": "blue"
       }]
     }, {
       "id": 3,
@@ -102,21 +160,35 @@
       "productDesc": "定期寿险保障，超高杠杆保平安",
       "productImg": "http://192.168.50.40:8080/imgs/products/product_img03.png",
       "productChannel": [{
-        "channelName": "齐欣云服",
-        "channelBrokerage": "27",
-        "channelStatus": false
-      }, {
-        "channelName": "i云保",
-        "channelBrokerage": "25",
-        "channelStatus": false
-      }, {
-        "channelName": "牛保",
-        "channelBrokerage": "23",
-        "channelStatus": false
-      }, {
+        "channelID": 1,
+        "channelSelect": 1,
         "channelName": "齐欣云服",
         "channelBrokerage": "30",
-        "channelStatus": true
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 2,
+        "channelSelect": 0,
+        "channelName": "i云保",
+        "channelBrokerage": "25",
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 3,
+        "channelSelect": 0,
+        "channelName": "牛保",
+        "channelBrokerage": "23",
+        "channelStatus": "未代理"
+      }, {
+        "channelID": 4,
+        "channelSelect": 0,
+        "channelName": "易云保",
+        "channelBrokerage": "15",
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 5,
+        "channelSelect": 0,
+        "channelName": "自定义",
+        "channelBrokerage": "",
+        "channelStatus": ""
       }],
       "relatedCompany": [],
       "relatedProduct": [],
@@ -131,8 +203,25 @@
         "tagIcon": ""
       }],
       "productSelftags": [{
-        "tagName": "",
-        "tagColor": ""
+        "tagID": 1,
+        "tagStatus": true,
+        "tagName": "运动",
+        "tagColor": "#62e42b"
+      }, {
+        "tagID": 2,
+        "tagStatus": false,
+        "tagName": "重疾",
+        "tagColor": "#e42b2b"
+      }, {
+        "tagID": 3,
+        "tagStatus": false,
+        "tagName": "同款",
+        "tagColor": "green"
+      }, {
+        "tagID": 4,
+        "tagStatus": false,
+        "tagName": "推荐",
+        "tagColor": "blue"
       }]
     }, {
       "id": 4,
@@ -145,21 +234,35 @@
       "productDesc": "全面保障，多次赔付",
       "productImg": "http://192.168.50.40:8080/imgs/products/product_img04.png",
       "productChannel": [{
-        "channelName": "齐欣云服",
-        "channelBrokerage": "27",
-        "channelStatus": false
-      }, {
-        "channelName": "i云保",
-        "channelBrokerage": "25",
-        "channelStatus": false
-      }, {
-        "channelName": "牛保",
-        "channelBrokerage": "23",
-        "channelStatus": false
-      }, {
+        "channelID": 1,
+        "channelSelect": 1,
         "channelName": "齐欣云服",
         "channelBrokerage": "30",
-        "channelStatus": true
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 2,
+        "channelSelect": 0,
+        "channelName": "i云保",
+        "channelBrokerage": "25",
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 3,
+        "channelSelect": 0,
+        "channelName": "牛保",
+        "channelBrokerage": "23",
+        "channelStatus": "未代理"
+      }, {
+        "channelID": 4,
+        "channelSelect": 0,
+        "channelName": "易云保",
+        "channelBrokerage": "15",
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 5,
+        "channelSelect": 0,
+        "channelName": "自定义",
+        "channelBrokerage": "",
+        "channelStatus": ""
       }],
       "relatedCompany": [],
       "relatedProduct": [],
@@ -174,8 +277,25 @@
         "tagIcon": ""
       }],
       "productSelftags": [{
-        "tagName": "",
-        "tagColor": ""
+        "tagID": 1,
+        "tagStatus": true,
+        "tagName": "运动",
+        "tagColor": "#62e42b"
+      }, {
+        "tagID": 2,
+        "tagStatus": false,
+        "tagName": "重疾",
+        "tagColor": "#e42b2b"
+      }, {
+        "tagID": 3,
+        "tagStatus": false,
+        "tagName": "同款",
+        "tagColor": "green"
+      }, {
+        "tagID": 4,
+        "tagStatus": false,
+        "tagName": "推荐",
+        "tagColor": "blue"
       }]
     }, {
       "id": 5,
@@ -188,21 +308,35 @@
       "productDesc": "少儿保障，全面重疾",
       "productImg": "http://192.168.50.40:8080/imgs/products/product_img05.png",
       "productChannel": [{
-        "channelName": "齐欣云服",
-        "channelBrokerage": "27",
-        "channelStatus": false
-      }, {
-        "channelName": "i云保",
-        "channelBrokerage": "25",
-        "channelStatus": false
-      }, {
-        "channelName": "牛保",
-        "channelBrokerage": "23",
-        "channelStatus": false
-      }, {
+        "channelID": 1,
+        "channelSelect": 1,
         "channelName": "齐欣云服",
         "channelBrokerage": "30",
-        "channelStatus": true
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 2,
+        "channelSelect": 0,
+        "channelName": "i云保",
+        "channelBrokerage": "25",
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 3,
+        "channelSelect": 0,
+        "channelName": "牛保",
+        "channelBrokerage": "23",
+        "channelStatus": "未代理"
+      }, {
+        "channelID": 4,
+        "channelSelect": 0,
+        "channelName": "易云保",
+        "channelBrokerage": "15",
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 5,
+        "channelSelect": 0,
+        "channelName": "自定义",
+        "channelBrokerage": "",
+        "channelStatus": ""
       }],
       "relatedCompany": [],
       "relatedProduct": [],
@@ -217,8 +351,25 @@
         "tagIcon": ""
       }],
       "productSelftags": [{
-        "tagName": "",
-        "tagColor": ""
+        "tagID": 1,
+        "tagStatus": true,
+        "tagName": "运动",
+        "tagColor": "#62e42b"
+      }, {
+        "tagID": 2,
+        "tagStatus": false,
+        "tagName": "重疾",
+        "tagColor": "#e42b2b"
+      }, {
+        "tagID": 3,
+        "tagStatus": false,
+        "tagName": "同款",
+        "tagColor": "green"
+      }, {
+        "tagID": 4,
+        "tagStatus": false,
+        "tagName": "推荐",
+        "tagColor": "blue"
       }]
     }, {
       "id": 6,
@@ -231,21 +382,35 @@
       "productDesc": "少儿保障，全面重疾",
       "productImg": "http://192.168.50.40:8080/imgs/products/product_img05.png",
       "productChannel": [{
-        "channelName": "齐欣云服",
-        "channelBrokerage": "27",
-        "channelStatus": false
-      }, {
-        "channelName": "i云保",
-        "channelBrokerage": "25",
-        "channelStatus": false
-      }, {
-        "channelName": "牛保",
-        "channelBrokerage": "23",
-        "channelStatus": false
-      }, {
+        "channelID": 1,
+        "channelSelect": 1,
         "channelName": "齐欣云服",
         "channelBrokerage": "30",
-        "channelStatus": true
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 2,
+        "channelSelect": 0,
+        "channelName": "i云保",
+        "channelBrokerage": "25",
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 3,
+        "channelSelect": 0,
+        "channelName": "牛保",
+        "channelBrokerage": "23",
+        "channelStatus": "未代理"
+      }, {
+        "channelID": 4,
+        "channelSelect": 0,
+        "channelName": "易云保",
+        "channelBrokerage": "15",
+        "channelStatus": "代理中"
+      }, {
+        "channelID": 5,
+        "channelSelect": 0,
+        "channelName": "自定义",
+        "channelBrokerage": "",
+        "channelStatus": ""
       }],
       "relatedCompany": [],
       "relatedProduct": [],
@@ -260,8 +425,25 @@
         "tagIcon": ""
       }],
       "productSelftags": [{
-        "tagName": "",
-        "tagColor": ""
+        "tagID": 1,
+        "tagStatus": true,
+        "tagName": "运动",
+        "tagColor": "#62e42b"
+      }, {
+        "tagID": 2,
+        "tagStatus": false,
+        "tagName": "重疾",
+        "tagColor": "#e42b2b"
+      }, {
+        "tagID": 3,
+        "tagStatus": false,
+        "tagName": "同款",
+        "tagColor": "green"
+      }, {
+        "tagID": 4,
+        "tagStatus": false,
+        "tagName": "推荐",
+        "tagColor": "blue"
       }]
     }]
   }

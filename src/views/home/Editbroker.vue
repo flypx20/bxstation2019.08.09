@@ -11,7 +11,7 @@
              alt="">
       </div>
       <div class="avast-nick">
-        卖保险的小火柴
+        我是代理人
         <span class="iconfont">&#xe872;</span>
       </div>
     </div>

@@ -1,6 +1,9 @@
 <template>
   <div class="products">
-    <div class="title">产品推荐</div>
+    <div class="title">
+      产品推荐
+      <span>配置</span>
+    </div>
     <div class="navs">
       <ul>
         <li class="on">意外</li>
@@ -63,6 +66,17 @@ export default {
     color #020204
     line-height 0.6rem
     border-bottom 1px solid #eee
+    display flex
+    justify-content space-between
+    span
+      font-size 0.2rem
+      color #000
+      width 0.6rem
+      height 0.6rem
+      border-radius 50%
+      line-height 0.6rem
+      text-align center
+      border 1px solid #000
   .navs
     width 6.9rem
     height 0.4rem

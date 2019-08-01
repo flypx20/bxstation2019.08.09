@@ -6,7 +6,7 @@ import Vue from 'vue'
 import App from '@/App'
 import router from '@/router'
 import store from '@/store'
-import fastClick from 'fastclick'
+// import fastClick from 'fastclick'
 import '@/assets/iconfont/iconfont.css'
 
 import {
@@ -27,19 +27,26 @@ import {
   Collapse,
   CollapseItem,
   RadioGroup,
-  Radio
+  Radio,
+  TreeSelect,
+  Button,
+  Cell,
+  CellGroup,
+  Checkbox,
+  CheckboxGroup
 } from 'vant'
 
 import {
   Table,
-  TableColumn
+  TableColumn,
+  ColorPicker
 } from 'element-ui'
 
 import 'vant/lib/index.css'
 import './plugins/element.js'
 
-Vue.use(Swipe).use(SwipeItem).use(Lazyload).use(Tabbar).use(TabbarItem).use(Tab).use(Tabs).use(Search).use(Sticky).use(NavBar).use(Field).use(Switch).use(NoticeBar).use(Rate).use(Collapse).use(CollapseItem).use(RadioGroup).use(Radio).use(Table).use(TableColumn)
-fastClick.attach(document.body)
+Vue.use(Swipe).use(SwipeItem).use(Lazyload).use(Tabbar).use(TabbarItem).use(Tab).use(Tabs).use(Search).use(Sticky).use(NavBar).use(Field).use(Switch).use(NoticeBar).use(Rate).use(Collapse).use(CollapseItem).use(RadioGroup).use(Radio).use(TreeSelect).use(Button).use(Cell).use(CellGroup).use(Checkbox).use(CheckboxGroup).use(Table).use(TableColumn).use(ColorPicker)
+// fastClick.attach(document.body)
 
 new Vue({
   render: h => h(App),

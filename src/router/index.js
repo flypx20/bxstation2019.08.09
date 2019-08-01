@@ -43,6 +43,22 @@ const router = new Router({
     name: 'ProductDetail',
     component: () => import('@/views/products/ProductDetail')
   }, {
+    path: '/comparison',
+    name: 'Comparison',
+    component: () => import('@/views/comparison/Comparison')
+  }, {
+    path: '/comparisonlist',
+    name: 'ComparisonList',
+    component: () => import('@/views/comparison/ComparisonList')
+  }, {
+    path: '/comparisontable',
+    name: 'ComparisonTable',
+    component: () => import('@/views/comparison/ComparisonTable')
+  }, {
+    path: '/editchannel',
+    name: 'EditChannel',
+    component: () => import('@/views/personal/EditChannel')
+  }, {
     path: '/feeds',
     component: TabLayout,
     children: [{
@@ -52,6 +68,17 @@ const router = new Router({
       meta: {
         title: '保险聚合'
       }
+    }, {
+      path: '/personal',
+      component: TabLayout,
+      children: [{
+        path: '/personal',
+        name: 'Personal',
+        component: () => import('@/views/personal/Personal'),
+        meta: {
+          title: '个人中心'
+        }
+      }]
     }]
   }]
 })

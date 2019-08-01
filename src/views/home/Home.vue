@@ -1,15 +1,15 @@
 <template>
   <div>
-    <home-header></home-header>
+    <head-layout>我的微店</head-layout>
     <home-swiper :list="bannerList"></home-swiper>
     <home-card></home-card>
-    <home-plans :list="planList"></home-plans>
+    <!-- <home-plans :list="planList"></home-plans> -->
     <home-products :list="productList"></home-products>
   </div>
 </template>
 
 <script>
-import HomeHeader from "./components/Header";
+import HeadLayout from "../layout/HeadLayout";
 import HomeSwiper from "./components/Swiper";
 import HomeCard from "./components/Card";
 import HomePlans from "./components/Plans";
@@ -18,7 +18,7 @@ import axios from "axios";
 export default {
   name: "Home",
   components: {
-    HomeHeader,
+    HeadLayout,
     HomeSwiper,
     HomeCard,
     HomePlans,

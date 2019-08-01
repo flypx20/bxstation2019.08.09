@@ -6,7 +6,7 @@
            alt="">
     </div>
     <div class="title">
-      <h4>资深代理人<img src="@/static/images/icon_level.png"
+      <h4>我是代理人<img src="@/static/images/icon_level.png"
              alt=""></h4>
       <p>良心推荐性价比最高的产品</p>
     </div>

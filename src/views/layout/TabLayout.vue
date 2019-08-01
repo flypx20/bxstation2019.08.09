@@ -27,7 +27,7 @@ export default {
       tabbars: [
         {
           name: "home",
-          title: "我的首页",
+          title: "我的微店",
           normal: require("../../static/images/nav_icon_ind.png"),
           active: require("../../static/images/nav_icon_ind_on.png")
         },

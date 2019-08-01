@@ -1,6 +1,6 @@
 <template>
   <div>
-    <products-header></products-header>
+    <head-layout>保险产品</head-layout>
     <products-search></products-search>
     <products-tabs></products-tabs>
     <products-prodlist :list="productList"></products-prodlist>
@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import ProductsHeader from "./components/Header";
+import HeadLayout from "../layout/HeadLayout";
 import ProductsSearch from "./components/Search";
 import ProductsTabs from "./components/Tabs";
 import ProductsProdlist from "./components/ProdList";
@@ -16,7 +16,7 @@ import axios from "axios";
 export default {
   name: "Products",
   components: {
-    ProductsHeader,
+    HeadLayout,
     ProductsSearch,
     ProductsTabs,
     ProductsProdlist
