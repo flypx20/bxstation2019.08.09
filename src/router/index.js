@@ -28,14 +28,14 @@ const router = new Router({
     name: 'Editbanner',
     component: () => import('@/views/home/Editbanner')
   }, {
-    path: '/products',
+    path: '/comparison',
     component: TabLayout,
     children: [{
-      path: '/products',
-      name: 'Products',
-      component: () => import('@/views/products/Products'),
+      path: '/comparison',
+      name: 'Comparison',
+      component: () => import('@/views/comparison/Comparison'),
       meta: {
-        title: '保险产品'
+        title: '产品比较'
       }
     }]
   }, {
@@ -43,9 +43,9 @@ const router = new Router({
     name: 'ProductDetail',
     component: () => import('@/views/products/ProductDetail')
   }, {
-    path: '/comparison',
-    name: 'Comparison',
-    component: () => import('@/views/comparison/Comparison')
+    path: '/products',
+    name: 'Products',
+    component: () => import('@/views/products/Products')
   }, {
     path: '/comparisonlist',
     name: 'ComparisonList',

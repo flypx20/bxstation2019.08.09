@@ -1,9 +1,7 @@
 <template>
-  <van-sticky>
-    <div class="search">
-      <van-search placeholder="请输入产品关键词" />
-    </div>
-  </van-sticky>
+  <div class="search">
+    <van-search placeholder="请输入产品关键词" />
+  </div>
 </template>
 
 <script>

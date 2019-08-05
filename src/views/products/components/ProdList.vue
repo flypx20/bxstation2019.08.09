@@ -45,7 +45,7 @@
                    :class="item.productStatus ? 'oper-func-on' : 'oper-func-off'">{{item.productStatus ? '已上架' : '未上架'}}</a>
               </router-link>
               <a href=""
-                 class="oper-func-link">评测</a>
+                 class="oper-func-link">比较</a>
             </div>
           </div>
         </div>

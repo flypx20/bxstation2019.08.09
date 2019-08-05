@@ -32,8 +32,8 @@ export default {
           active: require("../../static/images/nav_icon_ind_on.png")
         },
         {
-          name: "products",
-          title: "保险产品",
+          name: "comparison",
+          title: "产品比较",
           normal: require("../../static/images/nav_icon_mall.png"),
           active: require("../../static/images/nav_icon_mall_on.png")
         },

@@ -1,18 +1,13 @@
 <template>
   <div class="products">
     <div class="title">
-      产品推荐
-      <span>配置</span>
+      微店产品
+      <router-link to="/products"><span>+ 添加产品</span></router-link>
     </div>
     <div class="navs">
       <ul>
-        <li class="on">意外</li>
-        <li>人寿</li>
-        <li>重疾</li>
-        <li>医疗</li>
-        <li>财产</li>
-        <li>出行</li>
-        <li>运动</li>
+        <li v-for="item in typeList"
+            :key="item.typeID">{{item.typeName}}</li>
       </ul>
     </div>
     <div class="list">
@@ -27,6 +22,11 @@
           <div class="info">
             <span>{{item.productName}}</span>
             <p>{{item.productDesc}}</p>
+          </div>
+          <div class="edit">
+            <router-link to="/productdetail">
+              <span>编辑</span>
+            </router-link>
           </div>
           <div class="oper">
             <div class="oper-price">
@@ -48,6 +48,32 @@ export default {
   name: "HomeProducts",
   props: {
     list: Array
+  },
+  data() {
+    return {
+      typeList: [
+        {
+          typeID: 1,
+          typeName: "意外"
+        },
+        {
+          typeID: 2,
+          typeName: "健康"
+        },
+        {
+          typeID: 3,
+          typeName: "医疗"
+        },
+        {
+          typeID: 4,
+          typeName: "重疾"
+        },
+        {
+          typeID: 5,
+          typeName: "定寿"
+        }
+      ]
+    };
   }
 };
 </script>
@@ -70,16 +96,17 @@ export default {
     justify-content space-between
     span
       font-size 0.2rem
-      color #000
-      width 0.6rem
-      height 0.6rem
-      border-radius 50%
-      line-height 0.6rem
+      color #d1d1d1
+      height 0.4rem
+      border-radius 4px
+      line-height 0.4rem
       text-align center
-      border 1px solid #000
+      border 1px solid #d1d1d1
+      display block
+      margin 0.1rem 0
+      padding 0 0.1rem
   .navs
     width 6.9rem
-    height 0.4rem
     padding 0.3rem 0
     ul
       display flex
@@ -122,6 +149,7 @@ export default {
         justify-content space-between
         width 4rem
         height 1.8rem
+        position relative
         .info
           width 4rem
           height 0.8rem
@@ -134,6 +162,20 @@ export default {
             font-size 0.22rem
             color #808080
             ellipsis()
+        .edit
+          width 0.6rem
+          height 0.4rem
+          line-height 0.4rem
+          position absolute
+          right -0.2rem
+          top 0.02rem
+          border 1px solid #ccc
+          text-align center
+          border-radius 4px
+          span
+            line-height 0.4rem
+            font-size 0.22rem
+            color #ccc
         .oper
           width 4rem
           height 0.6rem
