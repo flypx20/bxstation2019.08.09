@@ -38,10 +38,12 @@ export default {
       axios.get("/apis/product.json").then(this.getProductListSucc);
     },
     getProductListSucc(res) {
+      console.log(res);
       res = res.data;
       if (res.ret && res.data) {
         const data = res.data;
         this.productList = data.productList;
+        
       }
     }
   },

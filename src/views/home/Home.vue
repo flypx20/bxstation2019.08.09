@@ -36,6 +36,7 @@ export default {
       axios.get("/apis/banner.json").then(this.getBannerListSucc);
     },
     getBannerListSucc(res) {
+      console.log('aaaa'+res);
       res = res.data;
       if (res.ret && res.data) {
         const data = res.data;
