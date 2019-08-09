@@ -1,16 +1,16 @@
 # bxstation
 
-## Project setup
+##运行项目需要安装项目的依赖包
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 把项目运行在浏览器中
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 对项目进行打包
 ```
 npm run build
 ```
